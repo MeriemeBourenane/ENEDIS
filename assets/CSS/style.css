@@ -1,0 +1,146 @@
+/*Start font-face*/
+@font-face {
+  font-family: "ubuntu-light";
+  src: url("../../assets/font/Ubuntu-L.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu-light";
+  font-style: italic;
+  src: url("../../assets/font/Ubuntu-LI.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu-medium";
+  src: url("../../assets/font/Ubuntu-M.ttf");
+}
+
+@font-face {
+  font-family: "ubuntu-medium";
+  font-style: italic;
+  src: url("../../assets/font/Ubuntu-MI.ttf");
+}
+/*End font-face*/
+
+/*Start all*/
+
+body {
+  background: #fafafa;
+}
+
+form{
+  margin:0;
+}
+
+.contenu {
+  min-height: 100vh;
+}
+
+.title-page {
+  font-size: 2.5rem;
+  color: #93c90e;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 40px;
+  font-family: "ubuntu-medium";
+}
+
+/*End all*/
+
+/*Start contain*/
+.contain {
+  padding: unset;
+  box-shadow: 0px 0px 15px 4px #00000066;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  border-radius: 0.25rem;
+}
+
+.head-contain {
+  background: #93c90e;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
+}
+
+.title-contain {
+  font-family: "ubuntu-medium";
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  color: white;
+  margin: 0;
+}
+
+.body-contain {
+  font-family: "ubuntu-light";
+  background: white;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.part-title-contain {
+  color: #f1aa20;
+  font-size: 2rem;
+}
+
+.sous-part-title-contain {
+  color: black;
+  font-size: 1.5rem;
+}
+
+/*End contain*/
+
+/*Start button*/
+.btn-enedis {
+  background-color: #93c90e;
+  border: 1px solid #93c90e;
+  color: white;
+  font-family: "ubuntu-light";
+}
+
+.btn-enedis:hover {
+  background-color: white;
+  border: 1px solid;
+  color: #93c90e;
+}
+
+.btn-enedis-blue{
+    background-color: #005eb8;
+  border: 1px solid #005eb8;
+  color: white;
+  font-family: "ubuntu-light";
+}
+
+.btn-enedis-blue:hover {
+  background-color: white;
+  border: 1px solid;
+  color: #005eb8;
+}
+
+.btn:focus,
+.btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0rem rgba(0, 123, 255, 0.25);
+}
+.btn-delete:hover {
+  background-color: white;
+  color: #e63b11;
+  border: 1px solid #e63b11;
+}
+/*End button*/
+
+/*Start input*/
+.input-enedis-green:focus {
+  border-color: #93c90e;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #b0ee14;
+}
+/*End input*/

@@ -1,0 +1,31 @@
+/*Start FOOTER*/
+footer {
+  margin-top:50px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #005eb8;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+footer a, footer spans{
+  font-size: 1rem;
+  color: white;
+}
+
+footer a:hover {
+  color: white;
+}
+
+
+/*End FOOTER*/
+
+/*Start media querry*/
+@media screen and (max-width: 767px) {
+  footer {
+    min-width: 100%;
+  }
+}
+/*End media querry*/

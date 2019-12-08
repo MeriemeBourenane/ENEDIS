@@ -1,0 +1,20 @@
+.vertical-nav{
+    height: 100vh;
+}
+.vertical-onglet{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #585B74;
+    color: #F9F9FB;
+}
+.vertical-onglet:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: #D6D6DB;
+    color: #585B74;
+}
+.vertical-onglet-name{
+    color: #F9F9FB;
+}

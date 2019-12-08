@@ -1,0 +1,105 @@
+/*Start PROFIL*/
+.container-profil{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:50%; 
+    margin-right:auto;
+    margin-left:auto; 
+    
+}
+/*End PROFIL*/
+
+
+/*Start head profil*/
+.photo-user-profil {
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 90px; 
+}
+
+.head-profil {
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.photo-user-profil img {
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0px 0px 7px #00000085;
+}
+
+.strip-info-profil {
+    height:50px; 
+  background: #93c90e;
+  padding-bottom:10px;
+}
+
+/*End head profil*/
+
+/*Start  body profil*/
+
+.body-profil{
+    padding-top : 10%; 
+    padding-bottom:30px; 
+    
+}
+.part-data-profil {
+    margin:auto; 
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.part-data-profil p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+}
+.type-data {
+  text-align: left;
+   font-family: "ubuntu-medium";
+  font-size: 1.2rem;
+}
+
+.info-data {
+  text-align: right;
+   font-family: "ubuntu-light";
+  font-size: 1.2rem;
+}
+
+
+
+
+/*End  body profil*/
+
+/*Start media querry*/
+@media screen and (max-width: 991px) {
+  .container-profil{
+    width: 80%; 
+  }
+
+}
+
+
+@media screen and (max-width: 767px) {
+  .photo-user-profil {
+    width: 100px;
+    height: 100px;
+    top: 80px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .container-profil{
+    width: 95%; 
+  }
+
+}
+/*End media querry*/

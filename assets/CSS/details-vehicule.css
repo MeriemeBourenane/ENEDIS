@@ -1,0 +1,43 @@
+.dispo-vehi-ok{
+    color: #93C90E;
+}
+.dispo-vehi-ko{
+    color: #E90B0B;
+}
+.une-descritption{
+    margin-bottom: 1px !important;
+}
+span.liste-desciption{
+    color: #00857E;
+    font-weight: bold;
+}
+
+/* START style button choisir */
+.card-button{
+    text-align: center;
+}
+.btn-choisir-vehi{
+    background-color: #93C90E;
+    color: white;
+    width: 100%;
+}
+.btn-choisir-vehi:hover{
+    background-color: white;
+    color: #93C90E;
+    border: 1px solid #93C90E;
+    width: 100%;
+}
+
+.btn-refuser-vehi{
+    background-color: #dc3545;
+    color: white;
+    width: 100%;
+}
+.btn-refuser-vehi:hover{
+    background-color: white;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    width: 100%;
+}
+
+/* END style button choisir */

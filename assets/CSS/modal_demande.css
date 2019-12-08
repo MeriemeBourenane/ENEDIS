@@ -1,0 +1,49 @@
+.enTeteDemande{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.titreDemande{
+    font-size: 2.5rem;
+    color: #6E960A;
+    text-align: center;
+    padding-top:30px;
+    margin-bottom: 40px;
+}
+.indications{
+    font-size: 18px;
+    color: #4D6071;
+    margin-bottom: 40px;
+}
+.notifErreur{
+    font-size: 18px;
+    color: #b00;
+    margin-bottom: 40px;
+}
+/*form{
+    margin-bottom: 30px;
+}*/
+.infosVehi{
+    /* border-right: 3px solid #00a3e0; */
+    border-top: 3px solid #00516F;
+    padding-top: 20px;
+}
+.infosDepla{
+    border-bottom: 3px solid #AED74B;
+}
+div.envoiInfos div.form-group{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.close{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.btn-envoyer-demande{
+    background-color: #93C90E;
+    color: white;
+    width: 9rem;
+    margin:20px;
+}

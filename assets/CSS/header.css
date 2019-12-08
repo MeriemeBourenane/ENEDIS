@@ -1,0 +1,123 @@
+/*Start header*/
+header {
+  background: #005eb8;
+}
+/*End header*/
+
+/* start header Logo and profil*/
+.enTete1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+}
+.utilisateur {
+  text-align: right;
+}
+
+.cercle-user {
+  background: #93c90e;
+  margin: 20px;
+  position: relative;
+  padding: 5px;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 0px 17px 0px #00000073;
+}
+
+.header-user {
+  font-size: 2.5rem;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+  right: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+button:focus {
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+/* end header Logo and profil*/
+
+/* Start header menuBar*/
+.menuBar {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.menuBar a:hover {
+  background-color: rgb(1, 113, 218);
+}
+.nav-list li {
+  margin-right: 25px;
+  font-size: 1rem;
+  font-family: "ubuntu-light";
+}
+
+.icon-menu-bar {
+  font-size: 2rem;
+  color: white;
+}
+/* End header menuBar*/
+
+/* start Media querry*/
+
+@media screen and (max-width: 991px) {
+  .enTete1,
+  .menuBar {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .enTete1 {
+    justify-content: center;
+  }
+
+  .header-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cercle-user {
+    height: 50px;
+  }
+
+  .header-user {
+    font-size: 4rem;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .logoENEDIS img {
+    width: 200px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .icon-menu-bar {
+    font-size: 1.5rem;
+  }
+
+  .navar-custom {
+    padding: 0px;
+  }
+}
+
+/* endf Media querry*/

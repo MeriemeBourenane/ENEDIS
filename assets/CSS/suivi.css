@@ -1,0 +1,90 @@
+.contenu-suivi{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 100px;
+}
+div.titre-section{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+div.titre-section h3.titre-section{
+    font-size: 2.5rem;
+    color: #93C90E;
+    text-align: center;
+    padding-top:30px;
+    margin-bottom: 40px;
+    font-family: "ubuntu-medium";
+}
+table.table-suivi thead.table-suivi{
+    background-color: #00857E;
+    color: white;
+    text-align: center;
+}
+tbody.table-suivi{
+    text-align: center;
+}
+.suivi-icon{
+    color: #005854;
+}
+.edit-icon{
+    color: #93C90E;
+}
+.delete-icon{
+    color: #E63B11;
+}
+
+/* START Modal de modif */
+div.edit-modal-header{
+    background-color: #93C90E;
+}
+div.edit-modal-header h5{
+    text-align: left;
+    color: white;
+    background-color: #93C90E;
+    font-size: 1.5rem;
+}
+div.edit-modal-body{
+    text-align: left;
+    font-size: 1.2rem;
+}
+button.edit-modal{
+    background-color: #93C90E;
+    color: white;
+}
+button.edit-modal:hover{
+    background-color: white;
+    color: #93C90E;
+    border: 1px solid #93C90E;
+}
+/* END Modal de modif */
+
+/* START Modal de supp */
+div.delete-modal-header{
+    background-color: #E63B11;
+}
+div.delete-modal-header h5{
+    text-align: left;
+    color: white;
+    background-color: #E63B11;
+    font-size: 1.5rem;
+}
+div.delete-modal-body{
+    text-align: left;
+    font-size: 1.2rem;
+}
+button.delete-modal{
+    background-color: #E63B11;
+    color: white;
+}
+button.delete-modal:hover{
+    background-color: white;
+    color: #E63B11;
+    border: 1px solid #E63B11;
+}
+button.delete-modal-close{
+    color: white;
+}
+/* END Modal de supp */
+form{
+    display: inline;
+}

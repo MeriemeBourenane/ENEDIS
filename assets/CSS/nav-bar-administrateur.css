@@ -1,0 +1,9 @@
+.nav-bar-administrateur{
+    /* background-color: #005eb8; */
+}
+div.nav-bar-title{
+  border-right: 1px solid white;
+}
+a.nav-bar-title, .first-onglet{
+    color: white !important;
+}

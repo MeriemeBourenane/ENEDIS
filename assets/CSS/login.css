@@ -1,0 +1,50 @@
+/*Start signup*/
+body{
+   background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contain-login {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 8vh;
+  margin-bottom: 3vh; 
+}
+
+.title-login {
+  text-align: center;
+  font-family: "ubuntu-medium";
+  font-size: 1.4rem;
+  margin: 15px;
+  /*text-shadow: 4px 4px black;*/
+}
+
+.input-login {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*End signup*/
+
+/*Start media querry*/
+@media screen and (max-width: 991px) {
+  .contain-login {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .input-signup {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+/*End media querry*/
